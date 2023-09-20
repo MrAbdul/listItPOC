@@ -25,6 +25,7 @@ func (i ItemRepo) Create(item *domain.Item) (*domain.Item, error) {
 
 	if err != nil {
 		tx.Rollback()
+
 		return nil, err
 	}
 	if item.ID != 0 {
