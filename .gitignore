@@ -1,0 +1,6 @@
+/.env
+/.idea/dataSources.xml
+/cmd/go_build_main_go.exe
+/.idea/ListItV3.iml
+/.idea/modules.xml
+/.idea/sqldialects.xml
